@@ -3,7 +3,7 @@ var restify = require('restify'),
     request = require("request"),
     fs = require('fs'),
     octonode = require('octonode'),
-    github = octonode.client('53de7dbb03378ec65a6180750b55fa494bd12867')
+    github = octonode.client(process.env.ACCESS_TOKEN)
 
 var server = restify.createServer();
 
