@@ -17,6 +17,13 @@ Use your custom registry with npm:
 
     npm install some_module --registry http://localhost:8000
 
+## TODO
+
+* cache responses from GitHub
+* Use a better cache than an object in memory
+* fix the nasty shasum hack
+* `latest` response needs to have all versions, not just latest
+
 ## Copyright
 
 Copyright (c) 2013 Andrew Nesbitt. See [LICENSE](https://github.com/andrew/ghpm/blob/master/LICENSE) for details.
